@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="rps.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="bloqueM">
+
+        <h1>ROCK-PAPER-SCISSORS</h1>
+        <h3>chose one then press play</h3>
+
+        <div id="mandos">
+            <button data-key="0"><img class="imgbtn" src="./images/paper.png" alt="paper"></button>
+            <button data-key="1"><img class="imgbtn" src="./images/rock.png" alt="rock"></button>
+            <button data-key="2"><img class="imgbtn" src="./images/scissors.png" alt="scissors"></button>
+
+        </div>
+        <br>
+        <button class="play">play</button>
+
+        <br>
+        <div class="round">Round: </div>
+
+        <div class="score">User Vs Pc</div>
+    </div>
+    <h3 class="results"></h3>
+    <div class="frame">
+
+        <div class="frameUser">user
+            <div class="frameUserChild"></div>
+            <h3 class="electionUserFrame election"></h3>
+
+        </div>
+
+        <div class="framePc">PC
+            <div class="framePcChild"></div>
+            <h3 class="electionPcFrame election"></h3>
+        </div>
+
+    </div>
+    <div class="reproductor">
+        <video data-key='0' own="user" class='noVideo videoUser' src="./animations/paper_user.mp4" type="video/mp4"
+            autoplay muted></video>
+        <video data-key="0" own="pc" class="noVideo videoPc" src="./animations/paper_pc.mp4" type="video/mp4" autoplay
+            muted></video>
+
+        <video data-key='1' own="user" class="noVideo videoUser" src="./animations/rock_user.mp4" type="video/mp4"
+            autoplay muted></video>
+        <video data-key="1" own="pc" class="noVideo videoPc" src="./animations/rock_pc.mp4" type="video/mp4" autoplay
+            muted></video>
+
+
+        <video data-key='2' own="user" class="noVideo videoUser" src="./animations/scissors_user.mp4" type="video/mp4"
+            autoplay muted></video>
+        <video data-key="2" own="pc" class="noVideo videoPc" src="./animations/scissors_pc.mp4" type="video/mp4"
+            autoplay muted></video>
+    </div>
+
+    </div>
+</body>
+
+</html>
