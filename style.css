@@ -1,0 +1,185 @@
+html{
+    box-sizing: border-box;
+    box-sizing: inherit;
+    background-color:black;
+}
+
+* {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 1px 2px #A816DB;
+    font-size: 20px;
+    
+    
+}
+#mandos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+#mandos > button{
+    background-color: #0000000a;
+}
+#mandos > button img{
+    cursor:pointer;
+    width:100px;
+    height:100px;
+    border-style: hidden;
+}
+#mandos >button img:hover{
+    transform: rotateX(140deg);  
+}
+#inservice{
+    border: 4px double  yellow;
+    
+}
+.play{
+    border-radius: 200%;
+    width: 80px;
+    background-color: violet;
+    cursor: pointer;
+    }
+
+.play:hover{
+    color: yellow;
+   }
+
+.play:focus{
+    border: 2px solid white;
+}   
+h1{
+    color: yellow;
+    text-shadow: 2px 4px #A816DB;
+    font-size: 40px;
+}
+
+.noVideo {
+    display: none;
+    
+}
+.reproductor{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.videoPlaying {
+    width: 100px;
+    height: 100px;
+    
+}
+.frame{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.frameUser{
+    width: 150px;
+    height: 150px;
+}
+.framePc{
+    width: 150px;
+    height: 150px;
+}
+video {
+    margin: 2px;
+}
+.results, .election {
+    color: yellow;
+    text-shadow: 2px 2px  #A816DB;
+}html{
+    box-sizing: border-box;
+    box-sizing: inherit;
+    background-color:black;
+}
+
+* {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 1px 2px #A816DB;
+    font-size: 20px;
+    
+    
+}
+#mandos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+#mandos > button{
+    background-color: #0000000a;
+}
+#mandos > button img{
+    cursor:pointer;
+    width:100px;
+    height:100px;
+    border-style: hidden;
+}
+#mandos >button img:hover{
+    transform: rotateX(140deg);  
+}
+#inservice{
+    border: 4px double  yellow;
+    
+}
+.play{
+    border-radius: 200%;
+    width: 80px;
+    background-color: violet;
+    cursor: pointer;
+    }
+
+.play:hover{
+    color: yellow;
+   }
+
+.play:focus{
+    border: 2px solid white;
+}   
+h1{
+    color: yellow;
+    text-shadow: 2px 4px #A816DB;
+    font-size: 40px;
+}
+
+.noVideo {
+    display: none;
+    
+}
+.reproductor{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.videoPlaying {
+    width: 100px;
+    height: 100px;
+    
+}
+.frame{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.frameUser{
+    width: 150px;
+    height: 150px;
+}
+.framePc{
+    width: 150px;
+    height: 150px;
+}
+video {
+    margin: 2px;
+}
+.results, .election {
+    color: yellow;
+    text-shadow: 2px 2px  #A816DB;
+}
